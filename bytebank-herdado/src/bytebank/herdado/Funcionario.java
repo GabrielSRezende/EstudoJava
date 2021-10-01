@@ -4,7 +4,7 @@ package bytebank.herdado;
 //abstract-bloqueia a criação de um objeto apenas funcionário
 //Agora é preciso criar um que seja filho, como gerente e editor.
 public abstract class Funcionario { //não pode instanciar dessa classe
-    
+         
     private String nome;
     private String cpf; 
     //protected - só as classes filhas podem acessar
