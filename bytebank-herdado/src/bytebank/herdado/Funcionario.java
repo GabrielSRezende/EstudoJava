@@ -12,6 +12,7 @@ public abstract class Funcionario { //não pode instanciar dessa classe
     
     //Método abstract - Método sem corpo, pois cada tipo de funcionário possui o método da sua forma
     public abstract double getBonificacao();
+   
     
     public String getNome() {
         return nome;
